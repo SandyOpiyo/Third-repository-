@@ -43,3 +43,8 @@ pm.test("Response contains data", function () {
     const jsonData = pm.response.json();
     pm.expect(jsonData).to.not.be.empty;
 });
+## Real-World API Testing
+Tested REST APIs using ReqRes:
+- GET users
+- POST create user
+- Response validation
